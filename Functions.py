@@ -179,6 +179,6 @@ def get_reviews(path_to_file, url) :
         
 
     df = pd.DataFrame.from_dict(reviews)
-    df.to_csv(path_to_file+'Data_hotels/reviews_{}.csv'.format(name))
+    df.to_csv(path_to_file+'/reviews_{}.csv'.format(name))
     return df       
 
