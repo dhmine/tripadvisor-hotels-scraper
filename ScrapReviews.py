@@ -19,7 +19,7 @@ import time
 from selenium.webdriver.common.action_chains import ActionChains
 # default path to file to store data
 from selenium.webdriver.common.by import By
-from review_test import get_reviews
+from Functions import get_reviews
 import openpyxl
 
 
