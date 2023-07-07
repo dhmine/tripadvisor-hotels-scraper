@@ -13,8 +13,6 @@ from selenium.webdriver.support.ui import Select
 # Library provides the way to automatically manage drivers for chrome
 from webdriver_manager.chrome import ChromeDriverManager
 
-# Library provides the way to automatically manage drivers for chrome
-from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 time.sleep(1)
